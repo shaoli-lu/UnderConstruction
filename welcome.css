@@ -1,0 +1,30 @@
+@keyframes grow {
+    from {font-size: 18px;}
+    to {font-size: 24px;}
+}
+
+@keyframes move {
+0% {left: 0%}
+25% {left: 30%}
+50% {left: 60%}
+75% {left: 30%}
+95% {left: 0.1%}
+}
+
+div {
+    animation-name: grow;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+   
+    
+}
+
+#move {
+    position: relative;
+    animation-name: move;
+    animation-duration: 80s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    color: orange;
+}
+
