@@ -11,12 +11,15 @@
 95% {left: 0.1%}
 }
 
-div {
+divx {
     animation-name: grow;
     animation-duration: 60s;
     animation-fill-mode: forwards;
-   
-    
+      
+}
+
+div {
+   font-size: 24px;
 }
 
 #move {
